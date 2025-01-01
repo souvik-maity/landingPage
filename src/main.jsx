@@ -5,6 +5,8 @@ import App from './App.jsx'
 import PredictionCard from './PredictionCard.jsx'
 import TradeApp from './TradeApp.jsx'
 import SafetyFirstSection from './SafetyFirstSection.jsx'
+import ComingSoonCard from './ComingSoonCard.jsx'
+import ControlledAccordions from './ControlledAccordions.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -12,5 +14,7 @@ createRoot(document.getElementById('root')).render(
     <PredictionCard/>
     <TradeApp/>
     <SafetyFirstSection/>
+    <ComingSoonCard/>
+    <ControlledAccordions/>
   </StrictMode>,
 )

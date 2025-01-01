@@ -17,7 +17,7 @@ const TradeApp = () => {
       {/* Chart/Image Section */}
       <div className="w-11/12 md:w-3/4 lg:w-1/2 flex justify-center items-center rounded-md overflow-hidden">
         <img
-          src="/vid.svg" // Replace with your actual chart/image path
+          src="/vid.svg" 
           alt="Chart"
           className="w-full h-auto object-cover"
         />

@@ -56,7 +56,7 @@ const PredictionCard = () => {
       {/* Image Section */}
       <div className="mt-8">
         <img
-          src="/prediction.svg" // Replace with the actual path to your image
+          src="/prediction.svg" 
           alt="Prediction Illustration"
           className="max-w-full h-auto object-contain"
         />
